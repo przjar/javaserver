@@ -1,0 +1,24 @@
+Zad 1
+Stwórz program który stworzy serwer i umo¿liwi prost¹ komunikacjê poprzez u¿ycie
+konsoli i po³¹czenia telnet, skorzystaj z czêœci kodu do zad 1 i uzupe³nij go tak
+abyœ móg³ skorzystaæ z ka¿dej jego opcji. Aby przetestowaæ rozmowê pomiêdzy dwoma u¿ytkownikami
+u¿yj funkcji telnet na adres localhost jak i adres lokalny twojego komputera.
+Loginy i has³a do dwóch kont s¹ dostêpne w kodzie.
+Przydatne strony:
+https://docs.oracle.com/javase/tutorial/networking/sockets/
+https://www.geeksforgeeks.org/socket-programming-in-java/
+https://www.baeldung.com/a-guide-to-java-sockets
+
+Zad 2
+Stwórz czêœæ clienta u¿ywaj¹c javax.swing, uzupe³nji kod i przetestuj po³¹czenie i dzia³anie
+programu tym razem ³¹cz¹c siê do serwera którego adres i port powinien byæ widoczny na tablicy.
+Zmieñ adres serwera w LoginWindow i jak narazie zignoruj czêœæ kodu LoginWindow i RegisterPane,
+bardziej skupimy siê na nich w Zad 3. Uzupe³nij kod w klasach UserListPane, Chatclient i MessagePane.
+
+Zad 3
+Dokoñcz czêœæ zwi¹zan¹ z MySQL aby dokoñczyæ program. Uzupe³nij kod w LoginWindow i RegisterPane,
+tak aby stworzyæ po³¹czenie z serwerem MySQL którego adres powinien byæ taki sam jak serwera
+a port powinien byæ równy 3306.
+Przydatne strony:
+https://www.vogella.com/tutorials/MySQLJava/article.html
+https://www.javatpoint.com/example-to-connect-to-the-mysql-database
